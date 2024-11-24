@@ -56,3 +56,44 @@ aside a {
   padding: 0.75rem;
   border-radius: 5px;
 }
+
+main {
+  color: #fff;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+main h2 {
+  margin: 0;
+}
+
+main h4 {
+  color: #feab51;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  aside {
+    height: auto;
+    width: 100%;
+  }
+
+  .special {
+    display: none;
+  }
+
+  aside ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    height: auto;
+    width: 100%;
+  }
+}
+
